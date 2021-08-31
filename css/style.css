@@ -54,6 +54,10 @@ body {
   border: none;
 }
 
+.btn-primary:hover {
+  background-color: transparent !important;
+}
+
 .btn-secondary {
   background-color: transparent;
   border-radius: 36px;
@@ -113,7 +117,6 @@ body {
   width: 15%;
   height: 130px;
   background-color: #fff;
-  border: solid 1px rgba(56, 56, 56, 0.199);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,15 +124,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.whitebox__1,
 .whitebox__2,
 .whitebox__3 {
   border-right: solid 1px rgba(56, 56, 56, 0.199);
@@ -138,12 +140,23 @@ body {
 .whitebox__5 {
   border-radius: 0 36px 0 0;
   background-color: #ff5c63;
+  cursor: pointer;
+}
+
+.whitebox__5:hover {
+  background-color: #ff1f2b;
+}
+
+.whitebox__text {
+  display: inline-block;
+  text-align: left;
 }
 
 .whitebox__q {
   color: #9b9b9b;
-  text-align: left;
   margin-bottom: 0rem !important;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .whitebox__a,
